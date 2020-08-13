@@ -1,0 +1,142 @@
+@font-face {
+    font-family: mediumm;
+    src: url('../fonts/medium.otf');
+  }
+  @font-face {
+    font-family: Boldd;
+    src: url('../fonts/bold.otf');
+  }
+.container{
+    width: 75%;
+    height: 80vh;
+    position: relative;
+    top:50vh;
+    left:50vw;
+    transform: translate(-50%, -55%);
+}
+h1{
+    color:#ffa24b;
+    font-family: boldd;
+    font-size: 54px;
+}
+.rorl{
+    font-family: mediumm;
+    font-size: 38px;
+    cursor: pointer;
+    
+}
+#dim{
+    opacity: 0.5;
+    margin-left: 80px;
+}
+.fields{
+    margin-top: 50px;
+    display: inline-flex;
+    width: 48%;
+    height: 77px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 7.83844px;
+    justify-content: space-between;
+    z-index: -2;
+}
+.input{
+    padding: 0 20px;
+    height: 90%;
+    width:90%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    border: none;
+    outline: none;
+    font-family: mediumm;
+    z-index: 1;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    opacity: 0.5;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    opacity: 0.5;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    opacity: 0.5;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    opacity: 0.5;
+  }
+  .submit{
+      background-color: #ffa24b;
+      padding: 28px 60px;
+      font-size: 23px;font-family: mediumm;
+      color:bold;
+      border-color: #ffa24b;
+      border-radius: 7.83844px;
+      outline:none;
+      margin-top: 50px;
+      color:white;
+      display: inline-block;
+  }
+  .dropdown{
+      margin: auto;
+      padding: 22px 26px;
+      width: 80%;
+      cursor: pointer;
+      height: fit-content;
+      margin-top: 0;
+      font-size: 23px;
+      color: rgba(0, 0, 0, 0.5);
+      opacity: 1;
+      font-family: mediumm;
+      list-style-type: none;
+      overflow: visible;
+      border: hidden;
+      
+      box-sizing: border-box;
+      background-color: transparent;
+  }
+  .down{
+      height: 24px;
+      width: 24px;
+      position: relative;
+      left:50%;
+      top:50%;
+      transform: translateX(-50%) translateY(-50%);
+  }
+  .up{
+    transform: rotate(180);
+  }
+  .option{
+    color:black;
+    font-family: mediumm;
+  }
+  select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.img{
+  display: block;
+  width: 20%;
+  cursor: pointer;
+  font-size: 30px;
+}
+#mail{
+  float: right;
+}
+#cap{
+  float: right;
+}
+#pass{
+  float: right;
+}
+#icon{
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  left:50%;
+
+  display: block;
+}

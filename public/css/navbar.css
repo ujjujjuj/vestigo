@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Medium;
+    src: url("../fonts/Medium.otf");
+  }
+  @font-face {
+    font-family: Bold;
+    src: url("../fonts/Bold.otf");
+  }
+.navcontainer{
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.navlogo{
+    color:white;
+    font-family:Bold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41.1685px;
+    line-height: 52px;
+    color: #FFFFFF;
+    display: flex;
+    cursor: pointer;
+    position:relative;
+    bottom:8px;
+}
+.navholder{
+    display: flex;    
+    padding: 23px;
+    color: white;
+}
+.navli{
+    padding: 0px 40px;
+    list-style-type: none;
+    color:white;
+    font-family: Medium;
+}
+.navlink{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Medium;
+    src: url("fonts/medium.otf");
+  }
+ @font-face {
+    font-family: Bold;
+    src: url("fonts/bold.otf");
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    height: 57vh;
+    background-color: #ffa24b;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top:0;
+}
+.apikeycontainer{
+    width: 70vw;
+    border: 1px solid white;
+    height: 54vh;
+    position: absolute;
+    top:50vh;
+    left:50vw;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 3px 35px rgba(0, 0, 0, 0.15);
+    border-radius: 17px;
+}
+.apikeytextcontainer{
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    
+}
+.apikeytitle{
+    color:#ffa24b;
+    font-family: Bold;
+    font-size: 35px;
+}
+.apikeytext{
+    font-family: Medium;
+    font-size: 22px;
+}
+.apikey{
+    width: 100%;
+    border: 0.783844px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 7.83844px;   
+    text-align: left;
+    padding: 20px 0px;
+}
+.key{
+    padding: 15px 15px;
+    font-family: Medium;
+    font-size: 15px;
+}
+.apikeyview{
+    color:white;
+    background-color:#ffa24b;
+    font-family: Bold;
+    border: 1px solid #ffa24b;
+    border-radius: 7.83844px;
+    cursor: pointer;
+    padding: 20px 25px;
+}

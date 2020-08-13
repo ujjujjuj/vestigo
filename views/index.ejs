@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Search</title>
+        <script>
+            const data = JSON.parse('<%- JSON.stringify(locals.data) %>');
+        </script>
+        <script src="js/index.js" defer></script>
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="background">
+        </section>
+
+        <div class="navcontainer">
+            <h1 class="navlogo">
+                Vestigo
+            </h1>
+            <ul class="navholder">
+                <li class="navli"><a href="/map" class="navlink">Map</a></li>
+                <li class="navli"><a href="/about" class="navlink">About</a></li>
+                <li class="navli"><a href="/api" class="navlink">API</a></li>
+                <li class="navli"><a href="/api/logout" class="navlink">Logout</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="searchbox">
+                <div class="search">
+                    <input name="query" placeholder="Search for Shops, Hotels, Bars...">
+                    <button id="search" onclick="search()">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <h3>Search</h3>
+                    </button>
+                </div>
+                <div class="extraSearch">
+                    <select name="category">
+                        <option value="">Category</option>
+                        <option value="Hotel">Hotel</option>
+                        <option value="Restaurant">Restaurant</option>
+                        <option value="Store">Store</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main">
+                <div class="stores">
+                    <h1 class='head' style="color:white">Shopping</h1>
+                    <div class="shopContainer">
+                        
+                    </div>
+                </div>
+                <div class="restaurants">
+                    <h1 class='head'>Restaurant</h1>
+                    <div class="restaurantContainer">
+                        
+                    </div>
+                </div>
+                <div class="hotels">
+                    <h1 class='head'>Hotels</h1>
+                    <div class="hotelContainer">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--
+    <div class="cardWrapper">
+        <div class="card">
+            <img src="img/mall.jpg">
+            <h2>DLF Promenade Mall</h2>
+            <span class="isSafe">
+                Safe
+            </span>
+            <h3>There are 42 people here </h3>
+        </div>
+    </div>
+-->

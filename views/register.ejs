@@ -1,0 +1,64 @@
+<!--
+<html>
+    <head>
+        <title>Register</title>
+        <script defer src = "/js/register.js"></script>
+        <link href="/css/register.css" rel="stylesheet">
+    </head>
+    <body>
+        <form method="POST">
+            <input type="text" name = "name" placeholder="Company Name">
+            <input type="email" name = "email" placeholder="Email">
+            <select name="category">
+                <option value="Hotel">Hotel</option>
+                <option value="Restaurant">Restaurant</option>
+                <option value="Store">Store</option>
+            </select>
+            <input type="hidden" id ="lat" name="lat">
+            <input type="hidden" id ="long" name="long">
+            <input type="number" name="capacity" placeholder="Capacity">
+            <input type="text" name="url" placeholder="Website URL">
+            <input type="password" placeholder="password" name = "password">
+            <button>Register</button>
+            <% if(locals.error){ %>
+                <span class="error"><%= error %></span>
+            <% } %>
+        </form>
+    </body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/register.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">VestiGo</h1>
+        <a class="rorl">Registration</a>
+        <a class="rorl" id="dim">Login</a><br>
+        <form method="POST">
+            <div class="fields"><input class="input" type="text" name = "name" id="companyname" placeholder="Company name"></div>
+            <div class="fields" id="mail"><input class="input" name = "email" type="email" id="email" placeholder="E-mail"></div>
+            <div class="fields">
+                <select class="dropdown" name = "category">
+                    <option value="none" class="option">Category</option>
+                    <option value="store" class="option">Store</option>
+                    <option value="hotel" class="option">Hotel</option>
+                    <option value="restaurant" class="option">Restaurant</option>
+                </select>
+                <div class="img" onclick=' document.querySelector("select").click()'><i id="icon" class="fa fa-sort-desc" aria-hidden="true"></i></div>
+            </div>
+            <div class="fields" id="cap"><input class="input" type="text" id="capacity" name="capacity" placeholder="Capacity"></div>
+            <div class="fields"><input class="input" type="text" name="url" id="url" placeholder="Website url"></div>
+            <div class="fields" id="pass"><input class="input" name="password" type="password" id="password" placeholder="Password"></div>
+            <div class="submit" onclick="document.querySelector('form').submit()">Register</div>
+        </form>
+
+    </div>
+</body>
+</html>

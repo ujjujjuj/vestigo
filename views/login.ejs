@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link href="/css/login.css" rel="stylesheet">
+    </head>
+    <body>
+        <form method="POST">
+            <input type="email" name = "email" placeholder="Email">
+            <input type="password" placeholder="password" name = "password">
+            <button>Login</button>
+            <% if(locals.error){ %>
+                <span class="error"><%= error %></span>
+            <% } %>
+        </form>
+    </body>
+</html>
