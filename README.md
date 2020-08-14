@@ -1,4 +1,4 @@
-#The Problem
+# The Problem
 The coronavirus pandemic has severely affected the tourism and travel industry across the globe. Even with lockdowns
 being fully or partially lifted in many places, the fear and threat of the virus is far from over. Even with certain safety measures being implemented, the majority of people still fear for their safety and still aren’t willing to travel or go to public places for recreation and enjoyment.
 
@@ -8,10 +8,10 @@ these places safely.
 
 
 
-#How it works
+# How it works
 We partner with both small and big establishments and provide them with our API, which they can implement in their software to log every person that enters and exits their locations. This allows them to easily track the number of people present at  these locations at any given time. This data is made visible to the public on our website. This will help drive customers to said establishments, as it will provide them with reassurance of safety and certainty about their surroundings; users will be able to use this data while planning trips. If an establishment is at more than 60% of its capacity, it will be deemed unsafe, and users will be warned.
 
-#Revenue Streams
+# Revenue Streams
 
 1. API Licensing: A major aspect of the VestiGo business model is licensing the API to companies that wish to use it for commercial purposes . This will be a freemium model where our customers will have free access for a limited period after which a monthly fee will be charged. The API will be free for individuals who wish to use it for personal/non-profit projects.
 
