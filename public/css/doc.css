@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding:0;
+}
+.underline{
+    border: 1px solid black;
+    
+    border-width: 0px 0px 3px 0px;
+    padding: 5px 10px;
+}
+.sidenavcontainer{
+    width: 25%;
+    height: 87vh;
+    position: fixed;
+    top:13vh;
+    z-index: -1;
+    background-color: #f5f5f5;
+}
+.sidenav{
+    margin-top: 10vh;
+    width: 100%;
+    text-align: left;
+    padding:0;
+}
+.sidenavli{
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    margin:0;
+    display: block;
+    padding: 40px 0;
+    font-size: 20px;
+    opacity:0.5;
+}
+.item{
+    font-size: 1.2vw;
+    color:black;
+    text-decoration:none;
+    font-family: boldd;
+    width: 30%;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #n1{
+    opacity: 1;
+    background-color: white;
+  }
+.container{
+    width: 75vw;
+    height: 84vh;
+    margin-top: 14vh;
+    float:right; 
+}
+.left{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%; 
+}
+.right{
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%; 
+    float:right;
+    display: inline;
+}
+.textholder{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+.title{
+    color: #FFA24B;
+    font-family: boldd;
+}
+.text{
+    font-family: mediumm;
+    font-size: 16.5px;
+    line-height: 35px;
+}
+.auth{
+    height: 30px;
+    display: inline-block;
+    font-family: mediumm;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #FFA24B;
+}
+.autht{
+    display: inline;
+}
+.arrow{
+    height: 30px;
+    margin:0;
+    position: relative;
+    top:8px
+}
+.pic{
+    width: 75%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.format{
+    width: 100%;
+    border: 0.783844px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 7.83844px;
+}
+.formatholder{
+    display: block;
+    padding: 0px 30px;
+}
+a{
+    text-decoration: none;
+    color:#ffa24b;
+}

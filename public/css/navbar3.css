@@ -1,0 +1,59 @@
+@font-face {
+    font-family: mediumm;
+    src: url("/fonts/Medium.otf");
+  }
+  @font-face {
+    font-family: boldd;
+    src: url("/fonts/Bold.otf");
+  }
+  .navshadow{
+    margin-top: 0;
+    border: 1px solid white;
+    z-index: 200;
+    box-sizing: content-box;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.14);
+  }
+.navcontainer{
+  background-color: white;
+    z-index: 200;
+    width: 80vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.navlogo{
+    
+    font-family:Boldd;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5vw;
+    
+    color: #ffa24b;
+    display: flex;
+    cursor: pointer;
+    position:relative;
+    
+}
+.navholder{
+    display: flex;    
+    padding: 23px;
+    color: white;
+}
+.navli{
+    padding: 0px 40px;
+    list-style-type: none;
+    color:white;
+    font-family: Mediumm;
+}
+.navlink{
+    color:black;
+    text-decoration: none;
+    font-size: 1.2vw;
+}

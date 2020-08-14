@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.underline{
+    border: 1px solid black;
+    
+    border-width: 0px 0px 3px 0px;
+    padding: 5px 10px;
+}
+.sidenavcontainer{
+    width: 25%;
+    height: 87vh;
+    position: fixed;
+    top:13vh;
+    z-index: -1;
+    background-color: #f5f5f5;
+}
+.sidenav{
+    margin-top: 10vh;
+    width: 100%;
+    text-align: left;
+    padding:0;
+}
+.sidenavli{
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    margin:0;
+    display: block;
+    padding: 40px 0;
+    font-size: 20px;
+    opacity:0.5;
+}
+.item{
+    font-size: 1.2vw;
+    color:black;
+    text-decoration:none;
+    font-family: boldd;
+    width: 30%;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #n2{
+    opacity: 1;
+    background-color: white;
+  }
+.container{
+    width: 75vw;
+    height: 84vh;
+    margin-top: 14vh;
+    float:right; 
+}
+.textcontainer{
+    width: 60%;
+    height: 70%;
+    margin-left: 10vw;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.title{
+    font-family: boldd;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5vw;
+    line-height: 52px;
+    color: #FFA24B;
+}
+.aboveauth{
+    font-family: mediumm;
+    display: block;
+    font-size: 1.2vw;
+    margin-top:60px;
+}
+.format{
+    width: 100%;
+    border: 0.783844px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 7.83844px;
+    margin-top: 5%;
+}
+.formatholder{
+    display: block;
+    padding: 14px 40px;
+    font-family: mediumm;
+}
+.downauth{
+    font-family: mediumm;
+    display: block;
+    font-size: 1.1vw;
+    line-height: 4vh;
+    margin-top:60px;
+}
+.arrow{
+    height: 30px;
+    margin:0;
+    position: relative;
+    top:8px
+}
+.auth{
+    display: inline-block;
+    color: #ffa24b;
+    font-size: 1.2vw;
+    font-family: boldd;
+    margin-top: 7%;
+}
+a{
+    text-decoration: none;
+    color:#ffa24b;
+}

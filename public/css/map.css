@@ -1,3 +1,17 @@
+@font-face {
+    font-family: mediumm;
+    src: url("/fonts/medium.otf");
+  }
+  @font-face {
+    font-family: boldd;
+    src: url("/fonts/bold.otf");
+  }
+*{
+    font-family: mediumm;
+}
+body{
+    overflow-x:none;
+}
 .container{
     width: 80vw;
     margin:60px auto;

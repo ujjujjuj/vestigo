@@ -3,11 +3,21 @@ const User = require("../models/User.js");
 const path = require('path');
 const getUID = require("../middleware/getUID.js");
 
-router.get("/",(req,res) => {
-    return res.render(path.join(__dirname + '/../views/api.ejs'));
+router.get("/api",(req,res) => {
+    return res.sendFile(path.join(__dirname + '/../views/api.html'));
+});
+router.get("/auth",(req,res) => {
+    return res.sendFile(path.join(__dirname + '/../views/auth.html'));
+});
+router.get("/routes",(req,res) => {
+    return res.sendFile(path.join(__dirname + '/../views/routes.html'));
+});
+router.get("/errors",(req,res) => {
+    return res.sendFile(path.join(__dirname + '/../views/errors.html'));
 });
 
-router.get("/profile",getUID,async (req,res) => {
+
+router.get("/api/profile",getUID,async (req,res) => {
     let user = await User.findOne({_id:req.id})
     if(!user){
         return res.redirect("/api/logout")
@@ -16,11 +26,7 @@ router.get("/profile",getUID,async (req,res) => {
     return res.render(path.join(__dirname + '/../views/profile.ejs'),{token:user.token});
 });
 
-router.get("/",(req,res) => {
-    return res.send("e")
-});
-
-router.post("/people",async (req,res) => {
+router.post("/api/people",async (req,res) => {
     if(!req.headers.auth){
         return res.status(403).json({"success":false,"error":"No auth token"})
     }

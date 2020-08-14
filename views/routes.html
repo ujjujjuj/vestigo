@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/routes.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar3.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="navshadow">
+    <div class="navcontainer">
+        <h1 class="navlogo">
+            VestiGo
+        </h1>
+        <ul class="navholder">
+            <li class="navli"><a href="/map" class="navlink">Map</a></li>
+            <li class="navli"><a href="/about" class="navlink">About</a></li>
+            <li class="navli"><a href="/api/register" class="navlink"><span class="underline">Register</span></a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="sidenavcontainer">
+        <ul class="sidenav">
+            <li class="sidenavli" id="n1"><a class="item" href="/api">Overview</a></li>
+            <li class="sidenavli" id="n2"><a class="item" href="/auth">Authentication</a></li>
+            <li class="sidenavli" id="n3"><a class="item" href="/routes">Routes</a></li>
+            <li class="sidenavli" id="n4"><a class="item" href="/errors">Errors</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="textcontainer">
+            <h1 class="title">Routes </h1>
+            <h1 class="title2">/ API / People </h1>
+            <p class="request">Request</p>
+            <div class="format"><p class="formatholder">action:"add" / action:"subtract</p></div>
+            <div class="format" id="right"><p class="formatholder">count:&lt;integer&gt;</p></div>
+            <p class="request">Response</p>
+            <div class="format"><p class="formatholder">success=true / success=false </p></div>
+            <div class="format" id="right"><p class="formatholder">error=&lt;error message&gt;(if success=false)</p></div>
+            <div class="format" id="down"><p class="formatholder">count=&lt;integer&gt;(if success=true)</p></div><br>
+            <div class="auth"><a href="/errors">Errors</a></div>
+            <img class="arrow" src="https://cdn.discordapp.com/attachments/488292692976205826/743563961051381912/right-arrow.png">
+
+        </div>
+    </div>
+</script>
+</body>
+</html>

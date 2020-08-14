@@ -1,0 +1,85 @@
+@font-face {
+    font-family: mediumm;
+    src: url('/fonts/medium.otf');
+  }
+  @font-face {
+    font-family: Boldd;
+    src: url('/fonts/bold.otf');
+  }
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.underline{
+    border: 1px solid black;
+    
+    border-width: 0px 0px 3px 0px;
+    padding: 5px 10px;
+}
+.sidenavcontainer{
+    width: 25%;
+    height: 87vh;
+    position: fixed;
+    top:13vh;
+    z-index: -1;
+    background-color: #f5f5f5;
+}
+.sidenav{
+    margin-top: 10vh;
+    width: 100%;
+    text-align: left;
+    padding:0;
+}
+.sidenavli{
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    margin:0;
+    display: block;
+    padding: 40px 0;
+    font-size: 20px;
+    opacity:0.5;
+}
+.item{
+    font-size: 1.2vw;
+    color:black;
+    text-decoration:none;
+    font-family: boldd;
+    width: 30%;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #n4{
+    opacity: 1;
+    background-color: white;
+  }
+.container{
+    width: 75vw;
+    height: 84vh;
+    margin-top: 14vh;
+    float:right; 
+}
+.textcontainer{
+    width: 60%;
+    margin-left: 10vw;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.titles{
+    
+    font-family: mediumm;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 36.0952px;
+    line-height: 46px;
+    margin-top: 80px;
+}
+#top{
+    font-family: boldd;
+    font-size: 41px;
+    color: #FFA24B;    margin-top:0;
+}
