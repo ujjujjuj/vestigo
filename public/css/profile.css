@@ -33,11 +33,9 @@ body{
 .apikeytextcontainer{
     width: 50%;
     position: absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform: translate(-50%, -50%);
-    height: 100%;
-    
 }
 .apikeytitle{
     color:#ffa24b;

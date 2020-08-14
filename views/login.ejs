@@ -1,3 +1,4 @@
+<!--
 <html>
     <head>
         <title>Login</title>
@@ -13,4 +14,26 @@
             <% } %>
         </form>
     </body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form method="POST">
+            <h1 class="title">VestiGo</h1>
+            <a class="rorl" id="dim" onclick="window.location.href='/api/register'">Registration</a>
+            <a class="rorl">Login</a><br>
+            <div class="fields"><input class="input" name = "email" type="email" id="email" placeholder="E-mail"></div>
+            <div class="fields" id="pass"><input class="input" name="password" type="password" id="password" placeholder="Password"></div>
+            <div class="submit" onclick='document.querySelector("form").submit()'>Login</div>
+        </form>
+    </div>
+</body>
 </html>
