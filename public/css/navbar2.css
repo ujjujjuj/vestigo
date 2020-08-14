@@ -1,10 +1,10 @@
 @font-face {
     font-family: mediumm;
-    src: url("/fonts/Medium.otf");
+    src: url("/fonts/medium.otf");
   }
   @font-face {
     font-family: boldd;
-    src: url("/fonts/Bold.otf");
+    src: url("/fonts/bold.otf");
   }
   .navshadow{
     margin-top: 0;
