@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Map</title>
+        <script src="js/map.js"></script> 
+        <link href="/css/map.css" rel="stylesheet" type="text/css">
+        <link href="/css/navbar.css" rel="stylesheet">
+        <script>
+            const data = JSON.parse('<%- JSON.stringify(locals.data) %>');
+        </script>
+    </head>
+    <body>
+        <section class="background">
+        </section>
+
+        <div class="navcontainer">
+            <h1 class="navlogo">
+                VestiGo
+            </h1>
+            <ul class="navholder">
+                <li class="navli"><a href="/map" class="navlink">Map</a></li>
+                <li class="navli"><a href="/about" class="navlink">About</a></li>
+                <li class="navli"><a href="/api" class="navlink">API</a></li>
+                <li class="navli"><a href="/api/logout" class="navlink">Logout</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div id="map"></div>
+        </div>
+    </body>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA27dYHS0KD3_zvNQHi-e3pzFItI6y9AUQ&callback=initMap"></script>
+</html>

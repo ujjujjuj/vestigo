@@ -1,10 +1,10 @@
 @font-face {
     font-family: Medium;
-    src: url("fonts/medium.otf");
+    src: url("/fonts/medium.otf");
   }
  @font-face {
     font-family: Bold;
-    src: url("fonts/bold.otf");
+    src: url("/fonts/bold.otf");
 }
 body{
     margin: 0;

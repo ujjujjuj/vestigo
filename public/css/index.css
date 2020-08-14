@@ -1,10 +1,10 @@
 @font-face {
     font-family: Medium;
-    src: url("fonts/medium.otf");
+    src: url("/fonts/medium.otf");
   }
  @font-face {
     font-family: Bold;
-    src: url("fonts/bold.otf");
+    src: url("/fonts/bold.otf");
 }
 
 *{
@@ -121,7 +121,8 @@
 }
 .isSafe{
     max-width:100px;
-    height: 50px;
+    height: 40px;
+    border-radius: 4px;;
     background-color: #80DCC4;
     display: flex;
     align-items: center;
